@@ -1,0 +1,14 @@
+<ul>
+  <li>
+    <h2>
+      <%= animal.name %>
+    </h2> 
+    <ul>
+      <li>Type: <%= animal.type %></li>
+      <li>Greeting: <%= animal.speak() %></li>
+      <li>Report: <%= animal.vetReport %></li>
+    </ul>
+   </li>
+   <br><a href="/<%= animal.id %>/edit">  
+   Edit</a><br>
+</ul>
